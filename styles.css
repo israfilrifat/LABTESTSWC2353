@@ -1,0 +1,116 @@
+/* Reset default margins and paddings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header and Navigation Bar */
+header {
+    background: #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px; /* Resize the logo */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px; /* Rounded corners for a better look */
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: red;
+}
+
+/* Pricing Table */
+.pricing {
+    text-align: center;
+    padding: 20px;
+}
+
+.pricing table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.pricing table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* Call to Action Button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.contact p {
+    margin: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+footer img {
+    height: 30px;
+    margin: 5px;
+}
+
+.copyright {
+    font-size: 12px;
+}
